@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashwin R | Software Engineer & Thinker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Fira Code', monospace; background: #050505; color: #a8a29e; scroll-behavior: smooth; }
+        .philosophy-font { font-family: 'Playfair Display', serif; }
+        .glass { background: rgba(255, 255, 255, 0.02); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .accent-text { color: #22c55e; }
+        .quote-card { border-left: 2px solid #22c55e; padding-left: 2rem; margin: 4rem 0; }
+    </style>
+</head>
+<body class="selection:bg-green-500/30">
+
+    <nav class="fixed w-full z-[100] glass px-8 py-4 flex justify-between items-center">
+        <div class="text-white font-bold text-xs tracking-tighter uppercase">User: Ashwin_R</div>
+        <div class="hidden lg:flex gap-10 text-[10px] uppercase tracking-widest">
+            <a href="#about" class="hover:accent-text transition underline decoration-stone-800">01. Identity</a>
+            <a href="#quotes" class="hover:accent-text transition underline decoration-stone-800">02. Philosophy</a>
+            <a href="#work" class="hover:accent-text transition underline decoration-stone-800">03. Repositories</a>
+            <a href="#links" class="hover:accent-text transition underline decoration-stone-800">04. Terminal_Links</a>
+        </div>
+    </nav>
+
+    <header id="about" class="min-h-screen flex items-center px-8 md:px-24">
+        <div class="max-w-5xl">
+            <h1 class="text-6xl md:text-9xl text-white font-light leading-[0.9] mb-8">
+                Logic <span class="philosophy-font italic text-stone-700">meets</span> <br> <span class="accent-text">Existence.</span>
+            </h1>
+            <p class="text-lg md:text-xl max-w-2xl leading-relaxed text-stone-500 mb-12">
+                Software Engineer focused on the intersection of technical scalability and philosophical minimalism.
+            </p>
+            <div class="flex flex-wrap gap-6">
+                <a href="https://github.com/ashwinece07" target="_blank" class="glass px-6 py-3 text-xs uppercase tracking-widest hover:bg-white/10 transition">GitHub_Src</a>
+                <a href="https://leetcode.com/u/Ashwin_2007/" target="_blank" class="glass px-6 py-3 text-xs uppercase tracking-widest hover:bg-white/10 transition">LeetCode_Stats</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="quotes" class="py-24 px-8 md:px-24 bg-[#080808]">
+        <h2 class="text-xs text-stone-700 uppercase tracking-widest mb-10">// CONCEPT_MANIFESTO</h2>
+        
+        <div class="quote-card max-w-4xl">
+            <p class="philosophy-font text-4xl md:text-6xl text-stone-200 italic leading-tight">
+                "Things you own end up owning you."
+            </p>
+            <p class="mt-6 text-sm text-stone-600 uppercase tracking-[0.3em]">— Tyler Durden / The Minimalist Engineer</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-16 mt-20">
+            <div>
+                <h3 class="text-white mb-4 text-sm underline decoration-green-900">Digital Asceticism</h3>
+                <p class="text-sm leading-loose">In engineering, we often hoard dependencies and bloat our systems. I believe in stripping away the unnecessary until only the core logic remains. A clean codebase is a free mind.</p>
+            </div>
+            <div>
+                <h3 class="text-white mb-4 text-sm underline decoration-green-900">The Entropy of Code</h3>
+                <p class="text-sm leading-loose">Software naturally tends toward disorder. My philosophy is to fight this entropy through rigorous architecture and a relentless commitment to simplicity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-8 md:px-24">
+        <h2 class="text-xs text-stone-700 uppercase tracking-widest mb-16">// SYSTEM_METRICS</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="glass p-12">
+                <h4 class="text-white text-2xl mb-6">Algorithm Efficiency</h4>
+                <p class="text-sm text-stone-500 mb-8">Daily problem solving on LeetCode to sharpen the analytical edge. Focusing on Dynamic Programming and Graph Theory.</p>
+                <div class="flex items-end gap-4">
+                    <div class="w-full bg-stone-900 h-2 rounded-full overflow-hidden">
+                        <div class="bg-green-500 h-full w-[85%]"></div>
+                    </div>
+                    <span class="text-[10px] text-green-500">OPTIMIZED</span>
+                </div>
+            </div>
+            <div class="glass p-12 flex flex-col justify-center">
+                <h4 class="text-white text-xs uppercase tracking-widest mb-4">Tech_Stack_Array</h4>
+                <p class="text-stone-300">["React", "Node.js", "Python", "C++", "System_Design", "Docker"]</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="py-24 px-8 md:px-24">
+        <h2 class="text-xs text-stone-700 uppercase tracking-widest mb-16">// PUBLIC_LOGS</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <a href="https://github.com/ashwinece07" class="group glass p-8 hover:border-green-500/50 transition">
+                <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=500" class="w-full h-32 object-cover mb-6 opacity-40 group-hover:opacity-100 transition">
+                <h4 class="text-white text-lg">GitHub</h4>
+                <p class="text-[10px] mt-2 text-stone-500 italic">Source Code & Contribution Graph</p>
+            </a>
+            <a href="https://leetcode.com/u/Ashwin_2007/" class="group glass p-8 hover:border-green-500/50 transition">
+                <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=500" class="w-full h-32 object-cover mb-6 opacity-40 group-hover:opacity-100 transition">
+                <h4 class="text-white text-lg">LeetCode</h4>
+                <p class="text-[10px] mt-2 text-stone-500 italic">Data Structures & Logic Challenges</p>
+            </a>
+            <a href="https://www.linkedin.com/in/ashwin-r-4b6781380/" class="group glass p-8 hover:border-green-500/50 transition">
+                <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=500" class="w-full h-32 object-cover mb-6 opacity-40 group-hover:opacity-100 transition">
+                <h4 class="text-white text-lg">LinkedIn</h4>
+                <p class="text-[10px] mt-2 text-stone-500 italic">Professional Network & Experience</p>
+            </a>
+        </div>
+    </section>
+
+    <footer id="links" class="py-32 px-8 text-center border-t border-white/5">
+        <div class="mb-12">
+            <span class="text-[10px] uppercase tracking-[0.5em] text-stone-800">Connection_Request</span>
+            <h2 class="text-4xl text-white philosophy-font italic mt-4">"Hello World" is just the beginning.</h2>
+        </div>
+        <div class="flex justify-center gap-12 text-xs uppercase tracking-widest">
+            <a href="https://github.com/ashwinece07" class="hover:text-green-500 transition underline">Git</a>
+            <a href="https://www.linkedin.com/in/ashwin-r-4b6781380/" class="hover:text-green-500 transition underline">LinkedIn</a>
+        </div>
+        <p class="mt-20 text-[9px] text-stone-800 tracking-tighter">AUTHENTICATED BY ASHWIN_R &bull; 2025</p>
+    </footer>
+
+</body>
+</html>
